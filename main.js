@@ -1480,7 +1480,6 @@ async function main() {
 
 main().catch((err) => {
     console.error(err);
-    let spinner = document.getElementById("spinner");
-    if (spinner) spinner.style.display = "none";
+    document.getElementById("spinner").style.display = "none";
     document.getElementById("message").innerText = err.toString();
 });
