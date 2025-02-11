@@ -744,10 +744,10 @@ async function main() {
         carousel = false;
     } catch (err) {}
     const url = new URL(
-        // "nike.splat",
+        // "misterogers.splat",
         // location.href,
-        params.get("url") || "MisterRogers.splat",
-        "https://drive.google.com/uc?id=1HrcDUL8_z4_ZeifAHAWFeUgvBRDT67aV",
+        params.get("url") || "misterogers.splat",
+        "https://huggingface.co/trent-spivey/splat-data/tree/main",
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
